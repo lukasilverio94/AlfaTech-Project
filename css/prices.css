@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+:root {
+  --white: #fff;
+  --light-gray: #f1f3f7;
+  --white-secondary: #f6f6f6;
+  --gray: #a8a4a4;
+  --dark: #233032;
+  --blue: #2f86d6;
+  --blue2: rgb(47, 134, 214, 1);
+  /* colors */
+}
+
+.navbar-price {
+  width: 100%;
+  min-height: 70px;
+  padding: 20px 0;
+  background-color: var(--blue);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.navbar-price p {
+  color: var(--white);
+}
+
+.navbar-price li a {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--white);
+  margin-right: 15px;
+}
+
+.navbar-price li a:hover {
+  color: var(--dark);
+}
+
+/* price table */
+table {
+  width: 100%;
+  max-width: 1224px;
+  background-color: var(--white);
+  text-align: center;
+  border-collapse: collapse;
+  border-radius: 5px;
+  margin: 90px auto;
+}
+table td:first-child {
+  background-color: var(--light-gray);
+}
+table td,
+th {
+  border: 3px solid var(--light-gray);
+  padding: 15px;
+}
+
+/* circulo azul da tabela */
+.circle {
+  width: 15px;
+  height: 15px;
+  background-color: var(--blue);
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+/* FOOTER */
+.logo-container {
+  padding: 30px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--blue);
+}
+
+.text-logo {
+  padding: 15px;
+  display: flex;
+}
+
+.text-box {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+.text-logo p {
+  color: var(--white);
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.logo-container .copyright {
+  color: var(--white);
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.signature {
+  width: 100%;
+  min-height: 50px;
+  text-align: center;
+  background-color: var(--white);
+  color: var(--dark);
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin: 30px 0 5px 0;
+  letter-spacing: 1px;
+}
+
+.signature span {
+  color: var(--blue);
+}

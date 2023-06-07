@@ -1,0 +1,284 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+/* var colors Home*/
+:root {
+  --white: #fff;
+  --light-gray: #f1f3f7;
+  --white-secondary: #f6f6f6;
+  --gray: #a89f9f;
+  --dark: #233032;
+  --blue: #2f86d6;
+  --blue2: rgb(47, 134, 214, 1);
+}
+/* NAVBAR */
+.navbar {
+  width: 100%;
+  min-height: 70px;
+  padding: 20px 0;
+  background-color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  position: fixed;
+}
+.nav-menu {
+  display: flex;
+  list-style: none;
+}
+.navbar-left {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.nav-description {
+  margin-left: 20px;  
+}
+
+.logo {
+  width: 80px;
+}
+
+.logo-description {
+  color: var(--blue);
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.nav-item {
+  margin-left: 5%;
+  flex-wrap: wrap;
+  flex: 2;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: var(--dark);
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.nav-item a:hover {
+  color: var(--blue);
+  transition: 0.3s ease;
+}
+
+/*BANNER*/
+#banner {
+  width: 100%;
+  padding: 25px 0;
+  background-color: var(--blue);
+  color: var(--white);
+}
+
+#banner img {
+  width: 600px;
+  margin: 9% 15% 0 0;
+}
+
+.banner-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+
+.banner-text {
+  max-width: 470px;
+  padding: 180px 0;
+  margin: 100px 0 0 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  letter-spacing: 1.5px;
+  line-height: 25px;
+}
+
+.banner-text h1 {
+  font-size: 1.5rem;
+  line-height: 30px;
+}
+
+/* first ad  */
+.ad {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 40px 0;
+  background-color: var(--dark);
+  color: var(--white);
+}
+
+.ad-text h2 {
+  margin-bottom: 5px;
+}
+
+/* button */
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.price-btn {
+  padding: 20px 19px;
+  background-color: var(--blue);
+  color: var(--white);
+  text-decoration: none;
+  font-weight: 700;
+  border-radius: 5px;
+}
+
+.btn-container img {
+  margin-right: 15px;
+}
+
+/* services information*/
+.info-container {
+  padding: 120px 0;
+}
+
+.title-info {
+  margin: 0 auto;
+  text-align: center;
+  width: 900px;
+}
+
+.title-info span {
+  color: var(--blue);
+}
+
+.info img {
+  width: 120px;
+}
+
+.features {
+  width: 1024px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  margin: 0 auto;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.info h3 {
+  font-size: 1.1rem;
+  text-align: center;
+  margin-top: 10px;
+}
+.info p {
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* planos container */
+.plans-container {
+  width: 100%;
+  background-color: var(--light-gray);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* table general */
+.main-table {
+  width: 100%;
+  max-width: 1224px;
+  background-color: #fff;
+  text-align: center;
+  box-shadow: 0 0 70px 10px var(--blue);
+  border-collapse: collapse;
+  border-radius: 5px;
+  margin-bottom: 150px;
+}
+.main-table td,
+th {
+  border: 3px solid var(--light-gray);
+  padding: 15px;
+}
+.main-table tr {
+  padding: 15px;
+  height: 70px;
+  text-align: center;
+}
+
+/* linha 1  */
+.row-1 {
+  border: 1px solid black;
+}
+.row-1 h2 {
+  margin: 1.3rem 0;
+}
+.row-1 p {
+  margin: 1.3rem auto;
+  font-size: 13px;
+  color: var(--gray);
+  inline-size: 150px;
+}
+
+.table-title {
+  margin: 90px 0;
+}
+.table-title span {
+  color: var(--blue);
+}
+.main-table img {
+  width: 120px;
+}
+/* background cinza para linhas 2,4,6 */
+.gray-bg {
+  background-color: var(--light-gray);
+}
+
+/* segundo anuncio */
+.second-ad .ad {
+  background-color: var(--blue);
+}
+.second-ad .btn-container {
+  color: #fff;
+}
+.second-ad .price-btn {
+  background-color: var(--dark);
+}
+
+/* SECAO CONTATOS */
+#contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+  gap: 3rem;
+}
+
+.contacts-list {
+  line-height: 35px;
+  text-align: center;
+  font-weight: 500;
+}
+/* footer */
+.footer {
+  width: 100%; 
+  min-height: 70px; 
+  text-align: center;
+  background-color: var(--light-gray);
+}
+.footer p {
+ text-align: center;
+ font-weight: 600;
+ letter-spacing: 1px;
+ margin-top: 20px;   
+ font-size: .9rem;
+}
+.footer span {
+  color: var(--blue);
+}
+

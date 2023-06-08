@@ -26,6 +26,7 @@
   flex-wrap: wrap;
   position: fixed;
   top: 0;
+  left: 0;
 }
 .nav-menu {
   display: flex;
@@ -37,7 +38,7 @@
 }
 
 .navbar-price li a {
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-weight: 600;
   color: var(--white);
   margin-right: 15px;

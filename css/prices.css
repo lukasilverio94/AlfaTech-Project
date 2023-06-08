@@ -24,6 +24,12 @@
   align-items: center;
   justify-content: space-around;
   flex-wrap: wrap;
+  position: fixed;
+  top: 0;
+}
+.nav-menu {
+  display: flex;
+  list-style: none;
 }
 
 .navbar-price p {

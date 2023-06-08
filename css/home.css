@@ -50,9 +50,8 @@
 }
 
 .nav-item {
-  margin-left: 5%;
-  flex-wrap: wrap;
-  flex: 2;
+  margin-left: 1.5rem;
+  flex-wrap: wrap; 
 }
 
 .nav-item a {

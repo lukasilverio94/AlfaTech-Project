@@ -24,9 +24,9 @@
   align-items: center;
   justify-content: space-around;
   flex-wrap: wrap;
-  position: fixed;
+  position: relative;
   top: 0;
-  left: 0;
+  
 }
 .nav-menu {
   display: flex;
@@ -38,10 +38,9 @@
 }
 
 .navbar-price li a {
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-weight: 600;
   color: var(--white);
-  margin-right: 15px;
 }
 
 .navbar-price li a:hover {
@@ -66,6 +65,7 @@ th {
   border: 3px solid var(--light-gray);
   padding: 15px;
 }
+
 
 /* circulo azul da tabela */
 .circle {

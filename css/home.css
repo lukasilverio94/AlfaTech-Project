@@ -14,6 +14,11 @@
   --blue: #2f86d6;
   --blue2: rgb(47, 134, 214, 1);
 }
+/* MIN-width */
+.full-width {
+  min-width: 1024px;
+  width: 100%;
+}
 /* NAVBAR */
 .navbar {
   width: 100%;
@@ -36,7 +41,7 @@
   flex-wrap: wrap;
 }
 .nav-description {
-  margin-left: 20px;  
+  margin-left: 20px;
 }
 
 .logo {
@@ -51,7 +56,7 @@
 
 .nav-item {
   margin-left: 1.5rem;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
 }
 
 .nav-item a {
@@ -188,6 +193,23 @@
   flex-direction: column;
   align-items: center;
 }
+
+@media only screen and (max-width: 1000px) {
+  .info-container {
+    padding: 2rem;
+    max-width: 800px;
+    flex-wrap: wrap;
+  }
+  .plans-container {
+    width: 100%;
+    max-width: 600px;
+    padding: 1rem;
+  }
+  .price-btn {
+    font-size: .7rem;
+    width: 150px;
+  }
+}
 /* table general */
 .main-table {
   width: 100%;
@@ -265,19 +287,18 @@ th {
 }
 /* footer */
 .footer {
-  width: 100%; 
-  min-height: 70px; 
+  width: 100%;
+  min-height: 70px;
   text-align: center;
   background-color: var(--light-gray);
 }
 .footer p {
- text-align: center;
- font-weight: 600;
- letter-spacing: 1px;
- margin-top: 20px;   
- font-size: .9rem;
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-top: 20px;
+  font-size: 0.9rem;
 }
 .footer span {
   color: var(--blue);
 }
-
